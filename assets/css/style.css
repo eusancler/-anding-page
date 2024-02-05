@@ -15,11 +15,23 @@
     max-width: 100%;
     height: auto;
 }
-.top3-content{
+.product-content{
     height: 100vh ;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     max-width: 64rem;
     text-align: center;
+}
+.top3-content{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    
 }

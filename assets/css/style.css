@@ -1,7 +1,7 @@
 .intro-content{ 
     position: relative;
     display: grid;
-    top: -8rem;
+    /*top: -8rem;*/
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
     min-height: 100vh;

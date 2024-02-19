@@ -20,8 +20,9 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    max-width: 64rem;
+    max-width: 90rem;
     text-align: center;
+    
 }
 .top3-content{
     min-height: 100vh;
@@ -66,8 +67,8 @@
 }
 .gallery-img{
     width: 100%;
-    max-width:36rem;
-    max-height: 36rem;
+    max-width:30rem;
+    max-height: 30rem;
     overflow: hidden;
 }
 .gallery-img img{
@@ -75,4 +76,14 @@
 }
 .gallery-img img:hover{
     transform: translate(-3%,3%) scale(1.2) rotate(5deg);    
+}
+.gallery{
+    text-align: center;
+}
+.grid-gallery{
+    max-width: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,30rem);
+    column-gap: 3rem;
+    row-gap: 3rem;
 }

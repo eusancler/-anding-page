@@ -87,3 +87,6 @@
     column-gap: 3rem;
     row-gap: 3rem;
 }
+.contact-form{
+    grid-column: span 2;
+}

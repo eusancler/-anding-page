@@ -90,3 +90,24 @@
 .contact-form{
     grid-column: span 2;
 }
+.contact-form, .form-grid{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    
+}
+.form-group{
+    flex: 1 1 32rem;
+}
+.form-group label{
+    display: block;
+}
+.form-group imput, 
+.form-group textarea{
+border: none;
+background: var(--white-color);
+padding: 1.5rem 2rem;
+width: 100%;
+}
